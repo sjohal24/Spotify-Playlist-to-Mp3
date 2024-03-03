@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 # Replace 'YOUR_API_KEY' with your actual YouTube API key
-API_KEY = 'AIzaSyB_toDiplev4i_qUAWqT-V9CsiipJIxoUk'
+API_KEY = 'YOUR_API_KEY'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def get_youtube_url(song):
